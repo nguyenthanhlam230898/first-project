@@ -1,0 +1,26 @@
+
+#test{
+    height: 500px;
+    width: 600px;
+    font-size: 15px;
+    background-color: yellow;
+
+    background-image: url(https://mayanhxachtaynhat.com/wp-content/uploads/2018/12/lay-net-01.png);
+    background-repeat: no-repeat;
+
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 10px;   
+    border: 10px solid;
+
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 10px solid black;
+    box-sizing: border-box;
+}

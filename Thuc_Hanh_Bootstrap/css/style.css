@@ -1,0 +1,53 @@
+cài đặt mặc định
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+    
+}
+ul{
+    padding-inline-start: 25px !important; 
+}
+a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.box{
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+p{
+    font-size: 18px;
+}
+#session-2{
+    background-color: black;
+}
+.box-white{
+    background-color:white ;
+    margin-bottom : 50px;
+    padding: 16px;
+}
+h4{
+    border-bottom: 1px solid;
+    padding-bottom: 24px;
+    
+}
+#footer{
+    background: black;
+}
+#id1{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    border-top: 1px solid #6c757d;
+}
+h4 a{
+    font-size: 24px;
+}
+li a{
+    color: #333;
+}

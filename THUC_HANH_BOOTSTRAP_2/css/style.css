@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+body{
+    background-color: #e7ecf4;
+}
+img{
+    max-width: 100%;
+
+}
+a{
+    color: black;
+}
+a:hover{
+    /* xóa bỏ gạch chân ở thẻ a */
+    text-decoration: none;
+}
+header{
+    background: #222;
+    padding: 11px 0px;
+}
+#search input{
+    margin-right: -5px;
+    padding-left: 12px;
+    height: 30px;
+    width: 277px;
+    border: none;
+    /*bo góc*/
+    border-radius: 5px 0px 0px 5px;
+}
+#search input::placeholder{
+    color: #222; 
+}
+#search button{
+    height: 30px;
+    width: 78px;
+    border:  none;
+    background-color: #EB1F27;
+    border-radius: 0px 5px 5px 0px;
+
+
+}
+#sup-cart span{
+    background-color: #EB1F27;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+#sup-cart{
+    text-align: right; 
+}
+.mau-1{
+    background-color: #EB1F27;
+}
+.text-menu{
+    display: none;
+}
+.ke-phai{
+    border-right: 1px solid black ;
+}
+.no-padding{
+    padding: 0px;
+}
+nav a{
+    padding: 14px !important;
+}
+nav li:hover{
+    background-color: chocolate;
+}
+.cach-tren{
+    padding-top: 10px;
+}
+h2{
+    padding: 20px ;
+}
+.info h4{
+    padding-bottom: 10px ;
+    border-bottom: 1px solid black;
+    margin-bottom: 18px;
+}
+
+
+footer{
+    background-color: white;
+    padding: 23px 0px;
+}
+#footer-bottom{
+    background-color: #1d1e24;
+    color: white;
+    padding: 13px 0px;
+}
+#footer-bottom p{
+    margin-bottom: 0px;
+}
+/* css product */
+.list-product h2{
+    padding: 18px 0px 14px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product{
+    background-color: white;
+    text-align: center;
+    padding: 15px 27px 30px 27px ;
+    border: 1px solid #999;
+    border-radius: 5px;
+    
+}
+.product img{
+    width: 124px;
+    height: 172px;
+    
+}
+.product span{
+    color: #ec3b40;
+}
+.fix-padding-col{
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+    margin-bottom: 12px !important;
+}
+.fix-row{   
+    padding-left: 6px;    
+    padding-right: 9px;
+}
